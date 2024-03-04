@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "voice-assistent"
+version = "0.1.0"
+description = "Project proposed for Pycamp 2024 Spain."
+authors = ["Ezequiel Bernatene <ebernatene@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
