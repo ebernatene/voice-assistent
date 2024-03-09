@@ -22,3 +22,27 @@ poetry install
     poetry config vitualenvs.in-project true
     ```
     and now we are ready to create the environment.
+
+## Others dependencies
+
+* To execute the LLM locally we will use [Ollama](https://ollama.com/). If you don't have it installed, follow the steps suggested in the project site.
+
+
+## Download the models
+
+### LLM model
+
+To download the *Mistral LLM* we just need to run this command line:
+```bash
+ollama run mistral
+```
+There are many others models to play and enjoy, it's just an example.
+
+### Speech-to-text model
+
+A possible model for a first test could be use [OpenAI Whisper model](https://github.com/openai/whisper).
+
+### Text-to-speech model
+
+blabla
+
