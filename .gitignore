@@ -2,5 +2,5 @@
 ./venv
 poetry.lock
 
-./data
-./models
+data
+models
