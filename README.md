@@ -46,3 +46,7 @@ A possible model for a first test could be use [OpenAI Whisper model](https://gi
 
 blabla
 
+## Download data
+
+### Audio
+https://commonvoice.mozilla.org/en/datasets

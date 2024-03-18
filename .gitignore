@@ -2,3 +2,6 @@
 ./venv
 poetry.lock
 
+/data/*
+models/*
+
