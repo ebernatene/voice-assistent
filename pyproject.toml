@@ -7,15 +7,18 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
 ollama = "^0.1.7"
 openai-whisper = "^20231117"
+tts = "^0.22.0"
+ipywidgets = "^8.1.2"
 
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.2"
 black = "^24.2.0"
 pre-commit = "^3.6.2"
+ipykernel = "^6.29.3"
 
 [build-system]
 requires = ["poetry-core"]
